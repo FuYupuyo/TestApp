@@ -8,9 +8,9 @@ use Teng::Schema::Declare;
 base_row_class 'TestApp::DB::Row';
 
 table {
-    name 'member';
+    name 'memos';
     pk 'id';
-    columns qw(id name);
+    columns qw(id text);
 };
 
 1;
