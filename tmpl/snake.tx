@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <style>
+    body {  text-align:center;
+            background-color:green;
+            color:white;    }
+    button { width:400px; height:32px; }
+    </style>
+</head><body>
+<h1 id="info">Snake Game</h1>
+<div id="title" data-role="page">
+    <img src="tmpl/title.png"><br>
+    <button id="startButton">START</button>
+</div>
+</body></html>

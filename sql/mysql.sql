@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS member (
+CREATE TABLE IF NOT EXISTS memos (
     id           INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    name         VARCHAR(255)
-);
+    text         TEXT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
